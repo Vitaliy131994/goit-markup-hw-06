@@ -601,12 +601,13 @@
             </use>
         </svg>
     </button>
-    <p class="form-text">
-    Оставьте свои данные, мы вам перезвоним
-    </p>
+    
         <form class="js-speaker-form">
-           
-            <label class="label-name">Имя
+        <p class="form-text">
+            Оставьте свои данные, мы вам перезвоним
+        </p>
+            <label class="label-name">
+            <span class="name-form">Имя</span>
             <input class="input-type" type="text" name="user-name">
             <svg class="nav-icon-person">
             
@@ -616,7 +617,47 @@
             </svg>
             
             </label>
-       
+
+            <label class="label-name">
+                <span class="name-form">Телефон</span>
+                <input class="input-type" type="text" name="user-name">
+                <svg class="nav-icon-person">
+            
+                    <use href="./images/symbol-defs.svg#icon-phone-black-18dp-1">
+            
+                    </use>
+                </svg>
+            
+            </label>
+
+            <label class="label-name">
+                <span class="name-form">Почта</span>
+                <input class="input-type" type="text" name="user-name">
+                <svg class="nav-icon-person">
+            
+                    <use href="./images/symbol-defs.svg#icon-email-black-18dp-1">
+            
+                    </use>
+                </svg>
+            
+            </label>
+
+            <label for="coment" class="label-name">
+                <span class="name-form">Комментарий</span>
+                <textarea tipe="text" class="modal-input-coment" id="coment" placeholder="Введите текст"></textarea>
+          
+            </label>
+
+            <label  class="text-check">
+            <input class="checkbox" type="checkbox" name="" id="">
+            <span class="group-check"></span>
+                      
+            Соглашаюсь с рассылкой и принимаю
+            <a class="link-check" href="#">Условия договора</a>
+            </label>
+            
+            <button class="button-send" type="submit">Отправить</button>
+            
         </form>
 </div>
 </div>
